@@ -22,4 +22,4 @@ docker run -d --name nginx-sts -v ./nginx.conf:/etc/nginx/conf/nginx.conf -p 80:
 
 
 
-#### Based on the work [LoicMahieu/alpine-nginx](https://github.com/LoicMahieu/alpine-nginx)
+#### Based on the work of  [LoicMahieu/alpine-nginx](https://github.com/LoicMahieu/alpine-nginx)
