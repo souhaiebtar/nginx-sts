@@ -16,9 +16,9 @@ RUN apk --update add openssl-dev pcre-dev zlib-dev build-base curl unzip && \
     cd /tmp/src/${NGINX_VERSION} && \
     ./configure \
         --with-stream \
+        --with-http_ssl_module \
         --add-module=../nginx-module-sts-master \
         --add-module=../nginx-module-stream-sts-master \
-        --with-http_ssl_module \
         --with-http_gzip_static_module \
         --prefix=/etc/nginx \
         --http-log-path=/var/log/nginx/access.log \
