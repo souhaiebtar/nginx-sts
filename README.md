@@ -1,3 +1,5 @@
+[![dockeri.co](http://dockeri.co/image/tsouhaieb/nginx-sts)](https://registry.hub.docker.com/tsouhaieb/nginx-sts/)
+
 #### Alpine Nginx
 
 Tiny web server using [`nginx`](http://nginx.org/) built from source on Alpine Linux, with [vozlt/nginx-module-sts](https://github.com/vozlt/nginx-module-sts) buit in.
