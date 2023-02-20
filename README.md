@@ -8,6 +8,7 @@ Tiny web server using [`nginx`](http://nginx.org/) built from source on Alpine L
 
 nginx 1.15.3 with sts-module running on alpine 3.2
 already test and work with alpine 3.7 but 3.2 based image is smaller by 10MB
+now it run under alpine 3.15
 
 #### How to run
 
